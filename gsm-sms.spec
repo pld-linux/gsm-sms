@@ -1,5 +1,5 @@
 Summary:	Gsm Serial Cable SMS Controler
-Summary(pl):	Kontroler SMS w telefonach GSM, przez port serial.
+Summary(pl):	Kontroler SMS w telefonach GSM, przez port serial
 Name:		gsm-sms
 Version:	0.1
 Release:	1
@@ -17,22 +17,23 @@ phones and siemens. It also gives you abbility to check IMEI number or
 software version. PDA isn't supported in this beta.
 
 %description -l pl
-Wysy³anie Sms przez kabel serial. Pod³±czamy telefon do komputera na
-portcie serial i wysy³amy, odbieramy wiadomo¶ci z konsoli. Program
+Wysy³anie SMS przez kabel serial. Pod³±czamy telefon do komputera na
+porcie serial i wysy³amy, odbieramy wiadomo¶ci z konsoli. Program
 potrafi tak¿e sprawdziæ numer IMEI telefonu i wersje oprogramowania.
 
 %prep
-%setup -q -n gsm-sms
+%setup -q -n %{name}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_sbindir},%{_desktopdir}}
+install -d $RPM_BUILD_ROOT%{_sbindir}
 
-install gsm-sms.pl $RPM_BUILD_ROOT%{_sbindir}
+install %{name}.pl $RPM_BUILD_ROOT%{_sbindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc README
 %attr(755,root,root) %{_sbindir}/*
