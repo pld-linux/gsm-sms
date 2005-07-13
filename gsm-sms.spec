@@ -21,7 +21,7 @@ Pakiet umo¿liwia ³atwe czytanie i wysy³anie wiadomo¶ci SMS poprzez
 port szeregowy. Pod³±czamy telefon do portu szeregowego komputera i
 wysy³amy, odbieramy wiadomo¶ci z konsoli. Program dzia³a znakomicie z
 telefonami Nokia i Siemens. Potrafi tak¿e sprawdziæ numer IMEI
-telefonu i wersjê oprogramowania.
+telefonu i wersje oprogramowania.
 
 %prep
 %setup -q -n %{name}
