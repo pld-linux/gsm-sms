@@ -1,5 +1,5 @@
 Summary:	Gsm Serial Cable SMS Controler
-Summary(pl):	Kontroler SMS w telefonach GSM pod≥±czonych przez port szeregowy
+Summary(pl.UTF-8):   Kontroler SMS w telefonach GSM pod≈ÇƒÖczonych przez port szeregowy
 Name:		gsm-sms
 Version:	0.1
 Release:	1
@@ -16,11 +16,11 @@ messages through the port connection. It works perfectly with Nokia
 phones and Siemens. It also gives you abbility to check IMEI number or
 software version. PDA isn't supported in this beta.
 
-%description -l pl
-Pakiet umoøliwia ≥atwe czytanie i wysy≥anie wiadomo∂ci SMS poprzez
-port szeregowy. Pod≥±czamy telefon do portu szeregowego komputera i
-wysy≥amy, odbieramy wiadomo∂ci z konsoli. Program dzia≥a znakomicie z
-telefonami Nokia i Siemens. Potrafi takøe sprawdziÊ numer IMEI
+%description -l pl.UTF-8
+Pakiet umo≈ºliwia ≈Çatwe czytanie i wysy≈Çanie wiadomo≈õci SMS poprzez
+port szeregowy. Pod≈ÇƒÖczamy telefon do portu szeregowego komputera i
+wysy≈Çamy, odbieramy wiadomo≈õci z konsoli. Program dzia≈Ça znakomicie z
+telefonami Nokia i Siemens. Potrafi tak≈ºe sprawdziƒá numer IMEI
 telefonu i wersje oprogramowania.
 
 %prep
