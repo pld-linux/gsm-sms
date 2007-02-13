@@ -1,5 +1,5 @@
 Summary:	Gsm Serial Cable SMS Controler
-Summary(pl.UTF-8):   Kontroler SMS w telefonach GSM podłączonych przez port szeregowy
+Summary(pl.UTF-8):	Kontroler SMS w telefonach GSM podłączonych przez port szeregowy
 Name:		gsm-sms
 Version:	0.1
 Release:	1
